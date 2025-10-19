@@ -1,0 +1,53 @@
+1. Short Answer Questions
+Q1: Explain the primary differences between TensorFlow and PyTorch. When would you choose one over the other?
+•	TensorFlow is developed by Google and focuses on large-scale, production-ready deep learning models with deployment tools like TensorFlow Serving and TensorFlow Lite.
+•	PyTorch is known for its flexibility, dynamic computation graphs, and Pythonic syntax, making it easier for experimentation and research.
+Choice:
+•	PyTorch is used for research, prototyping, and when you want faster experimentation.
+•	TensorFlow is used for deploying models to production or mobile environments.
+________________________________________
+Q2: Describe two use cases for Jupyter Notebooks in AI development.
+1.	Interactive experimentation: Developers can test machine learning models step-by-step and visualize outputs (e.g., using Matplotlib or Seaborn).
+2.	Documentation and education: Notebooks combine code, text, and visuals — ideal for tutorials, demos, and sharing reproducible research.
+________________________________________
+Q3: How does spaCy enhance NLP tasks compared to basic Python string operations?
+•	spaCy provides pretrained language models for tokenization, lemmatization, named entity recognition, and part-of-speech tagging.
+•	Unlike basic string operations, spaCy understands linguistic context, enabling complex NLP tasks efficiently and accurately.
+________________________________________
+2. Comparative Analysis: Scikit-learn vs TensorFlow
+Feature	Scikit-learn	TensorFlow
+Target applications	Classical ML (e.g., regression, classification, clustering)	Deep learning and neural networks
+
+
+ETHICAL REPORT
+
+1. Introduction
+
+This project explored AI frameworks for deep learning, classical machine learning, and natural language processing. Ethical awareness was applied throughout to ensure fairness, transparency, and responsible data use.
+
+2. Data Ethics
+
+All datasets used (e.g., MNIST, text samples) were open-source and non-personal.
+No sensitive or private information was collected.
+Data preprocessing ensured fairness and minimized bias.
+
+3. Fairness and Bias
+
+We recognized that biased data leads to unfair models.
+Our approach included:
+
+Using balanced and verified datasets.
+
+Avoiding subjective or discriminatory outputs.
+
+Reporting results transparently (accuracy, confusion matrix, NER results).
+
+4. Transparency and Accountability
+
+Each step of model development is documented and reproducible.
+Our GitHub repository includes clear code, results, and explanations for accountability and peer review.
+
+5. Ethical Responsibility
+
+We commit to using AI for positive, non-harmful applications.
+Future work will emphasize model interpretability, inclusivity, and data protection.
