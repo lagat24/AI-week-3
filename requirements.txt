@@ -1,0 +1,16 @@
+
+---
+
+## ⚙️ **requirements.txt**
+
+```text
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow
+torch
+torchvision
+spacy
+jupyter
+seaborn
